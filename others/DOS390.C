@@ -1,0 +1,5 @@
+main()
+{
+	void *p;
+	getch();
+}

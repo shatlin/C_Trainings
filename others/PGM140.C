@@ -1,0 +1,13 @@
+#include <stdio.h>
+#include <conio.h>
+/*   no output   */
+void main()
+{
+   int a=5,b=6,c=7;
+   clrscr();
+     if (a==b)
+       if (c==8)printf("BYE");
+     else
+       printf("HI");
+   getch();
+}

@@ -1,0 +1,16 @@
+main()
+{
+	clrscr();
+	if
+	(
+	1
+	>
+	0
+	)
+	printf
+	(
+	"hello"
+	)
+	;
+	getch();
+}

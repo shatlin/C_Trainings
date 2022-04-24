@@ -1,0 +1,219 @@
+1 ----------------------------------
+main()
+{
+ const  i=10;
+ static j=34;
+ printf("%d..%d\n",sizeof(i),sizeof(j));
+}
+2 ----------------------------------
+main()
+{
+ int i=3;
+ while(i)
+ {
+  static int i=10;
+  i--;
+  printf("%d\n",i);
+ }
+}
+3 ----------------------------------
+main()
+{
+ int a=0,b=1,c=2;
+ if(c,b,a)
+  printf("hello\n");
+ else
+  printf("hai\n");
+}
+4 ----------------------------------
+main()
+{
+ char *a=("~!~!~!~!~!~!"?"\/\/\/\/\/\/\/\/":"_+_+_+_+_+_+_+_+");
+ printf("%s",a);
+}
+5 ----------------------------------
+main()
+{
+ int a=0;
+ while(if(a<10))
+  printf("%d\n",a++);
+}
+6 ----------------------------------
+main()
+{
+ if(1) printf("\\\");
+}
+7 ----------------------------------
+main()
+{
+ if("Drive Me Crazy") printf("%c\n",5["1234567"]);
+}
+8 ----------------------------------
+main()
+{
+ int i;
+ if(for(i=0;i<=10;i++)printf("hi\n");)
+  printf("hi\n");
+}
+9 ----------------------------------
+main()
+{
+ int a=20,b; /* a=20 & b=Garbage Value                                 */
+ int *p;     /* p=Garbage Value & It is not safe to use *p Now OOPS!!! */
+ p=&a;       /* p=address(a) & Now it is safe to use *p                */
+ b=a/*p;     /* b=a/*p; a=20 => *p=20  obvious!                        */
+ -a;         /* No Comments                                            */
+ printf("%d..%d\n",a,b);
+	     /* what do you ''Think?''                                 */
+}
+10----------------------------------
+#define min(x,y) ((x)<(y)?(x):(y))
+main()
+{
+ int a=1,b;
+ b=min(a++,2);
+ printf("%d..%d\n",a,b);
+}
+11----------------------------------
+main()
+{
+ int i=10;
+ for(;i<=10;if(i==11))
+  printf("%d..",++i);
+}
+12----------------------------------
+main()
+{
+ int a=10,b=36;
+ printf("%d..%d\n",a,b);
+ a^=b^=b^=a;
+ printf("%d..%d\n",a,b);
+}
+13----------------------------------
+#define make_max_zero(x,y) ((x>y)?x:y)=0
+main()
+{
+ int a=10,b=30;
+ make_max_zero(a,b);
+ printf("%d..%d\n",a,b);
+}
+14----------------------------------
+main()
+{
+ int processor=0386;
+ printf("%d\n",a);
+}
+15----------------------------------
+main()
+{
+ typedef int* intptr;
+ int a=10,b=20;
+ clrscr();
+ printf("%d..%d\n",a,b);
+ just_for_fun(&a,&b);
+ printf("%d..%d\n",a,b);
+}
+just_for_fun(intptr x,intptr y)
+{
+ *x=*x-*y;
+ *y=*x+*y;
+ *x=*y-*x;
+}
+16----------------------------------
+#define __SMALL__
+#define __LARGE__
+#include <stdio.h>
+main()
+{
+ printf("%d\n",sizeof(NULL));
+}
+17----------------------------------
+#define  charptr char*
+main()
+{
+ charptr  a,b;
+ printf("%d\n",(sizeof(unsigned)<sizeof(signed)?sizeof(a):sizeof(b)) );
+}
+18----------------------------------
+main()
+{
+ printf("%d\n",sizeof("012\012\012"));
+}
+19----------------------------------
+main()
+{
+ char a[]="\\\0 1 2 3 4 5///";
+ printf("string is  %s",a);
+}
+20----------------------------------
+#line 78
+main()
+{
+ printf("\nLine No:%d Date :%s Time :%s File :%s",
+  __LINE__,__DATE__,__TIME__,__FILE__);
+}
+21----------------------------------
+main()
+{
+ printf("%%%%%%%%");
+}
+22----------------------------------
+int size(int a[100])
+{
+ return (sizeof(a));
+}
+main()
+{
+ int a[100];
+ printf("%d\n",size(a));
+}
+23----------------------------------
+main()
+{
+ int (*p)[10];
+ printf("%d\n",sizeof(p));
+}
+24----------------------------------
+main()
+{
+ printf("%f\n",cos(0));
+}
+25----------------------------------
+void fun(int *p)
+{
+ int xyz;
+ xyz=*p++;
+}
+main()
+{
+ int i=20;
+ printf("%d..",i);
+ fun(&i);
+ printf("%d\n",i);
+}
+26----------------------------------
+main()
+{
+ char *p="re%sur%sion%s";
+ printf(p,p,p,p);
+}
+27----------------------------------
+main()
+{
+ _printf("Hello & Hai");
+}
+28----------------------------------
+main()
+{
+ printf("%d\n",1<0>1<0>1<0>1<0>1);
+}
+29----------------------------------
+main()
+{
+ printf("%d\n",1==0!=1==0!=1);
+}
+30----------------------------------
+main()
+{
+ printf("\0123");
+}

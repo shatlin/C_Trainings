@@ -1,0 +1,1920 @@
+
+ 
+
+
+
+
+
+#include<conio.h>
+#define as clrscr();
+#include<stdio.h>
+#include<math.h>
+
+1
+
+int main(void)
+{
+int a,b,c,d;
+a=50;
+b=6;
+clrscr();
+c=- a++ + b++;
+printf("%d   %d  %d ",a,b,c);
+getch();
+}
+
+
+2
+
+void main()
+{
+int a,b,c,d;
+a=50,b=6;
+c=++a+++b;
+clrscr();
+printf("%d   %d  %d ",a,b,c);
+getch();
+}
+
+3
+
+void main()
+{
+int b=50;
+clrscr();
+switch(b)
+{
+default:
+       printf("joo...");
+ case 1:
+ printf("i am case 1");
+ break;
+ case 2:
+}
+getch();
+}
+
+
+4
+
+void main()
+{
+int b=6;
+clrscr();
+switch(b)
+{
+ case 2+4:
+ printf("addition");
+ break;
+default:
+ printf("joo...");
+}
+getch();
+}
+
+
+5
+
+
+main()
+{
+char e="a";
+clrscr();
+printf("%c %d ",e,e);
+getch();
+}
+
+6
+
+void main()
+{
+for(a=0;a>12;a++)
+printf("%d test   ",a++)
+}
+
+7
+
+void main()
+{
+int b=6;
+switch(b)
+{
+case 6:printf("i am the original");break;
+case 2+4:printf("ju ...world);
+default:printf("guess who");
+}
+}
+
+8
+
+main()
+{
+int a=10;
+printf("%d %s %s "
+,a,"out string 1","out
+string 2");
+}
+
+9
+
+void main()
+{
+int a=10;
+as;
+printf("%d\a",printf("%d",a));
+getch();
+}
+
+10
+
+int d;
+void main()
+{
+char e;
+float f;
+as;
+printf("%d  %c  %f",d,e,f);
+}
+
+11
+
+main()
+{
+as;
+for(int a=0;a<12;a++,printf(" test%d\n",++a));
+printf("my mark %d ",a);
+}
+
+12
+
+main()
+{
+int a='a'+15;
+printf("%c",a);
+}
+
+13
+
+void main()
+{
+int a;
+scanf("%d",a);
+printf("%c",a++);
+}
+
+14
+
+void main()
+{
+a+14+35;
+}
+
+15
+
+void main()
+{
+i=10;
+printf("%d %d %d %d %d %d \n",++i,i++,i+1,i++,i--,--i);
+getch();
+}
+
+16
+
+void main()
+{
+x=5;
+y=6;
+z=7;
+if(++x||y--||z++)
+cprintf("%d %d %d \n",x,y,z);
+getch();
+}
+
+17
+
+void min();
+void min();
+void main();
+void main()
+{
+void main();
+void main();
+void main();
+clrscr();
+printf("hello how are \
+
+ you ");
+}      ;
+;;;;;
+
+18
+
+void main()
+{
+float a=10,i;
+i=a/a++;
+clrscr();
+printf("%f,%f" ,i,a);
+getch();
+}
+
+19
+
+void main()
+{
+float a=10,i;
+i=a++/a++;
+clrscr();
+printf("%f,%f" ,i,a);
+getch();
+}
+
+20
+
+void main()
+{   
+ int d=0;
+union
+{
+unsigned char  i :  4;
+}n, j;
+clrscr();
+for( ; d<26;d++)
+{
+n.i=d;
+printf("%d  " ,n.i);
+getch();
+}
+}
+
+21
+
+void main()
+{    
+int i=0;
+clrscr();
+int j=0;
+for(;i<20;i++)
+{
+printf("        \n%0", j);
+j++;
+getch();
+}
+}
+
+22
+
+void main()
+{
+float a=12.5;
+float *b,*c;
+b=&a;
+c=b;
+printf("\n%u \n%u \n%u ",&a,b,c);
+printf("\n%f\n%f\n%f\n%f" ,a,*(&a), *&a,*b,*c);
+}
+
+23
+
+void main()
+{
+int m=11;
+int k=  ++m + ++m;
+printf("%d",k);
+getch();
+}
+
+24
+
+void main()
+{
+clrscr();
+.
+.
+.
+getch();
+}
+
+25
+
+main()
+{
+int i;
+char ch=0;
+clrscr();
+for(i=0;i<=120;i++)
+{
+printf("\n%d   %c",ch,ch);
+ch++;
+getch();
+}
+}
+
+26
+
+void main()
+{
+signed char c=1
+float double x=1;
+//long signed int
+double t=125;
+clrscr();
+printf("%lf",t);
+getch();
+}
+
+27
+
+void main()
+{
+clrscr();
+printf("%d",...);
+getch();
+}
+
+28
+
+void main()
+{
+float x=25.5;
+double b=12.5;
+printf("\n%f  %lf ",x ,b);
+getch();
+} 
+
+29
+
+void main()
+{
+int i=0;
+clrscr();
+printf("\n%d is main i  ",i);
+i++;
+val();
+printf("\n%d is main i  ",i);
+val();
+getch();
+}
+val()
+{
+i=100;
+printf("\nval i is %d",i);
+}
+
+30
+
+void main()
+{
+int x,y,s=2;
+s*=3;
+clrscr();
+y=f(s);
+x=g(s);
+printf("%d  %d  %d",s,y,x);
+getch();
+}
+
+int t=8;
+f(int a)
+{
+a+=-5;
+t-=4;
+return(a+t);
+}
+
+g(int a)
+{
+a=1;
+t+=a;
+return (a+t);
+} 
+
+31
+
+main()
+{
+static int count =7;
+printf("\ncount =%d",count--);
+if(count !=0)
+main();
+} 
+
+32
+main()
+{
+auto int i=1;
+{
+{
+auto int i=2;
+printf("\n%d",i);
+}
+printf("\n%d",i);
+}
+}
+
+33
+
+void main()
+{
+extern int i;
+clrscr();
+printf("%d",i);
+}
+int i=20;
+
+34
+
+main()
+{
+display();
+}
+
+void display()
+{
+clrscr();
+printf("\n judgedreed");
+} 
+
+35
+
+main()
+{
+float a=0.7;
+clrscr();
+if(a<0.7)
+printf("c");
+else
+printf("c++");
+}
+
+36
+
+main()
+{
+float a=0.7;
+clrscr();
+if(a<0.7f)
+printf("c");
+else
+printf("c++");
+} 
+
+37
+
+main()
+{
+clrscr();
+printf("%f",sqrt(36.0));
+getch();
+} 
+
+38
+
+main()
+{
+clrscr();
+printf("%f",log(36.0));
+getch();
+}
+
+39
+
+main()
+{
+float a;
+clrscr();
+scanf("%f",&a);
+printf("%f",a+a+a);
+printf("\n%f",3 * a);
+getch();
+}
+
+40
+
+main()
+{
+float x=15.8;
+int y=(int)(x+.5);
+clrscr();
+printf("%d",y);
+getch();
+}
+
+41
+
+main()
+{
+ int i=10,j=4,c;
+ clrscr();
+ printf("\nValue of c is %d ",c);
+ printf("\nThe value of the expr is %d %d %d  ",i-- + i++  + --i,0,0);
+  getch();
+}
+
+42
+
+void main()
+{
+if(0.1)
+printf("hai");
+else
+printf("hello");
+}
+
+43
+
+#include\
+<stdio.h>
+#include\
+<conio.h>
+#include<string.h>
+#define as clrscr();
+#include<math.h>
+#define f(x,y) x*2+3*y+16
+void main(c,v)
+{
+int x=10,y=11,z=12;
+clrscr();
+x=++y=z++;  //assignment operator right to left
+printf("%d  %d  %d",x,y,z);
+getch();
+} 
+
+44
+
+typedef  double abc;
+abc x;
+enum color
+{
+red,
+blue,
+green
+};
+clrscr();
+printf("%d \n",green);
+getch();
+} 
+
+45
+
+main(int a,char b[],char *c[])
+{
+int i;
+clrscr();
+printf("the number of command line args are :"
+"%d\n\n",a);
+printf("list of command line arguments :\n");
+for(i=0;i<a;i++)
+printf("arguement %d: %s\n",i,b[i]);
+printf("\n\n");
+printf("the environment variables passed to main "
+"are:\n");
+for(i=0;c[i];i++)
+printf("%s\n",c[i]);
+getch();
+} 
+
+46
+
+main(int argc,char* argv[])
+{
+static int kkk;kkk=strlen(argv[1]);
+clrscr();
+printf("the number of characters in the first arguments is %d ",kkk);
+getch();
+}
+
+47
+
+main(int argc,char* argv[])
+{
+static int kkk;
+kkk=strlen(argv[1]);
+clrscr();
+printf("the number of characters in the first arguments is %d ",kkk);
+getch();
+} 
+
+48
+
+main()
+{
+int num=12345;
+char *reverse();
+clrscr();
+printf("%5d is %s\n",num,reverse(num));
+}
+
+char *reverse (int value)
+{
+int digit,end=5;
+static char decimal[5];
+int begin=0;
+decimal[end]='\0';
+while(begin<end)
+{
+digit=value%10;
+decimal[begin++]=digit+'0';
+value/=10;
+}
+return decimal;
+}
+
+49
+
+static float a=400;
+main()
+{
+static float *l=&a;
+as
+printf("%f",*l);
+} 
+
+
+50
+
+main()
+{
+const int max=10;
+char aaa[max];
+} 
+
+51
+
+main()
+{
+int j=9;
+float i=8.5;
+as
+printf("%d   %d",sizeof('58' ),sizeof("58"));
+}
+
+
+52
+
+main ()
+{
+float x=5.0,y=4.0;
+float z=x%y;
+printf("%d ",z);
+} 
+
+53
+
+int main(void)
+{
+int i;
+int x=5,y=2,z=10;
+float a,b;
+char c='a';
+as;
+printf("%d    %c" ,c+x,c+y);
+
+54
+
+void main()
+{
+clrscr
+( )
+;
+printf
+("hello  "
+
+"world")
+;
+getch
+();
+}
+
+55
+
+void main()
+{
+struct   a
+{
+int i;
+char c;
+void a();
+}k;
+k.i=10 ;
+k.c=12;
+printf("%d,%c, hello",k.i,k.c);
+}
+
+56
+
+char *argv[2]; int argc;
+main(argc,argv)
+{
+printf("hello");
+}
+
+
+57
+
+main(argc,argv)
+{
+printf("hello");
+}
+
+58
+
+main(argc,argv)
+{
+char *argv[];
+int argc;
+printf("hello");
+}
+
+59
+
+main()
+{
+int i;
+clrscr();
+printf("%d",i);
+getch();
+} 
+
+60
+
+main()
+{
+clrscr();
+int i;
+printf("%d",i);
+getch();
+} 
+
+61
+
+int i;
+main()
+{
+printf("%d",i+2);
+getch();
+} 
+
+62
+
+main()
+{
+static int i;
+i=10;
+clrscr();
+printf("%d",i);
+getch();
+}
+
+63
+
+a()
+{
+printf("hell\n");
+}
+b()
+{
+printf("ha\n");
+}
+c()
+{
+printf("bai\n");
+}
+
+main()
+{
+int (*i[3])();
+clrscr();
+i[0]=a;
+i[1]=b;
+i[2]=c;
+i[2]();
+getch();//bai
+}
+
+64
+
+a()
+{
+printf("hell\n");
+}
+b()
+{
+printf("ha\n");
+}
+c()
+{
+printf("bai\n");
+}
+
+main()
+{
+int (*i[3])();
+clrscr();
+i[0]=a();
+i[1]=b();
+i[2]=c();
+//i[2]();
+getch();//hell ha bai
+}
+
+65
+
+main()
+{printf("hello world");};;;
+
+66
+
+main()
+{
+int a[4];
+a[-2]=10;
+a[2]=3;
+printf("%d",-2[a]);
+}
+
+67
+
+main()
+{
+int i;
+clrscr();
+*&i=10;
+printf("%d",i);
+getch();//10
+}
+
+68
+
+main()
+{
+int i=10;
+clrscr();
+printf("%d...",++i);
+printf("%d",++i);
+getch();
+}
+
+69
+
+main()
+{
+char e="a";
+clrscr();
+printf("%c %d ",e,e);
+getch();
+} 
+
+
+70
+
+void main()
+{
+for(a=0;a>12;a++)
+{
+printf("%d test   ",a++)
+}
+}
+}
+
+
+71
+
+void main()
+{
+int b=6;
+
+switch(b)
+{
+case 6:printf("i am the original");break;
+case 2+4:printf("ju ...world);
+default:printf("guess who");
+}
+}
+
+72
+
+main()
+{
+int a=10;
+printf("%d %s %s "
+,a,"out string 1","out
+string 2");  
+} 
+
+
+73
+
+void main()
+{
+int a=10;
+as;
+printf("%d\a",printf("%d",a));
+getch();
+}
+
+74
+
+int d;
+void main()
+{
+char e;
+float f;
+as;
+printf("%d  %c  %f",d,e,f);
+}
+
+75
+
+main()
+{
+as;
+for(int a=0;a<12;a++,printf(" test%d\n",++a));
+printf("my mark %d ",a);
+}
+
+76
+
+main()
+{
+int a='a'+15;
+printf("%c",a);
+}
+
+77
+
+void main()
+{
+int a;
+scanf("%d",a);
+printf("%c",a++);
+}
+
+78
+
+void main()
+{
+a+14+35;
+}
+
+i=10;
+printf("%d %d %d %d %d %d \n",++i,i++,i+1,i++,i--,--i);
+getch();
+}
+
+79
+
+#include<stdio.h>
+#include<conio.h>
+
+void main() 
+{
+clrscr
+()
+;
+printf
+("hello  "
+
+"world")
+;
+getch
+();
+}
+
+80
+
+void main() 
+{
+struct   a
+{
+int i;
+char c;
+void a();
+}k;//no error if ; included
+k.i=10 ;
+k.c=12;
+printf("%d,%c, hello",k.i,k.c);
+}
+
+81
+
+char *argv[2]; //3
+int argc;
+main(argc,argv)
+{
+printf("hello");
+}
+
+82
+
+main(argc,argv)
+printf("hello");
+}
+
+83
+
+main(argc,argv)
+{
+char *argv[];
+int argc;
+printf("hello");
+}
+
+84
+
+void main()
+{
+long double t=12.5;
+clrscr();
+printf("%d",t);
+getch();
+}
+
+85
+
+main()
+{
+int i;
+clrscr();
+printf("%d",i);
+getch();
+}
+
+86
+
+
+main()
+{
+clrscr();
+int i;
+printf("%d",i);
+getch();
+}
+
+87
+
+int i;
+main()
+{
+printf("%d",i+2);
+getch();
+}
+
+88
+
+main()
+{
+int a[4];
+a[-2]=10;
+a[2]=3;
+printf("%d",-2[a]);
+}
+
+89
+
+main()
+{
+int i;
+clrscr();
+*&i=10;
+printf("%d",i);
+getch();//10
+}
+
+90
+
+main()
+{      
+int i=10;
+clrscr();
+printf("%d...",++i);
+printf("%d",++i);
+getch();
+}
+
+91
+
+void main()
+  {
+  int x=10,y=10;
+  x=x=x+1;
+  y=y=y+1;
+  x=x++;
+  printf("%d,%d",x,y);
+  }
+
+92
+
+main()
+{
+int i=2;
+#define def clrscr();
+def
+#ifdef def
+ #undef def
+#endif
+#ifdef def
+i*=i;
+printf("%d",i);
+#else
+def
+printf("\n%d",i);
+#endif
+}
+
+93
+
+main()
+{
+#define product(x) (x*x)
+int i=3,j,k;
+clrscr();
+j=product(i++);
+k=product(++i);
+printf("\n%d  %d ",j,k);
+getch();
+}
+ 
+94
+
+main()
+{
+#define product(x) (x*x)
+int i=3,j,k;
+clrscr();
+k=product(++i);
+j=product(i++);
+printf("\n%d  %d ",j,k);
+getch();
+}
+
+95
+
+#include<stdio.h>
+int SumElement(int *,int);
+void main(void)
+{
+        int x[10];
+        int i=10;
+        for(;i;)
+        {
+                i--;
+                *(x+i)=i;
+
+        }
+        printf("%d",SumElement(x,10));
+}
+int SumElement(int array[],int size)
+{
+        int i=0;
+        float sum=0;
+        for(;i<size;i++)
+                sum+=array[i];
+        return sum;
+}
+
+
+96
+
+#include<stdio.h>
+void main(void);
+int printf(const char*,...);
+void main(void)
+{
+        int i=100,j=10,k=20;
+        int sum;
+        float ave;
+        char myformat[]="ave=%.2f";
+        sum=i+j+k;
+        ave=sum/3.0;
+        printf(myformat,ave);
+}
+
+97
+
+#include<stdio.h>
+void main(void);
+void main(void)
+{
+        int a[10];
+        printf("%d",((a+9) + (a+1)));
+}
+
+
+98
+
+#include<stdio.h>
+void main(void);
+void main(void)
+{
+        struct s{
+                int x;
+                float y;
+        }s1={25,45.00};
+        union u{
+                int x;
+                float y;
+        } u1;
+        u1=(union u)s1;
+        printf("%d and %f",u1.x,u1.y);
+}
+
+
+99
+
+#include<stdio.h>
+void main(void)
+{
+{
+        unsigned int c;
+        unsigned x=0x3;
+        scanf("%u",&c);
+        switch(c&x)
+        {
+                case 3: printf("Hello!\t");
+                case 2: printf("Welcome\t");
+                case 1: printf("To All\t");
+                default:printf("\n");
+        }
+}
+
+
+100
+
+#include<stdio.h>
+int fn(void);
+void print(int,int(*)());
+int i=10;
+void main(void)
+{
+        int i=20;
+        print(i,fn);
+}
+void print(int i,int (*fn1)())
+{
+        printf("%d\n",(*fn1)());
+}
+
+int fn(void)
+{
+        return(i-=5);
+}
+
+
+101
+
+#include<stdio.h>
+void main(void);
+void main(void)
+{
+
+        char numbers[5][6]={"Zero","One","Two","Three","Four"};
+        printf("%s is %c",&numbers[4][0],numbers[0][0]);
+}
+
+
+102
+
+int bags[5]={20,5,20,3,20};
+void main(void)
+{
+        int pos=5,*next();
+        *next()=pos;
+        printf("%d %d %d",pos,*next(),bags[0]);
+}
+int *next()
+{
+        int i;
+        for(i=0;i<5;i++)
+                if (bags[i]==20)
+                        return(bags+i);
+                printf("Error!");
+        exit(0);
+}
+
+103
+
+#include<stdio.h>
+void main(void)
+{
+        int y,z;
+        int x=y=z=10;
+        int f=x;
+        float ans=0.0;
+        f *=x*y;
+        ans=x/3.0+y/3;
+        printf("%d %.2f",f,ans);
+}
+
+104
+
+#include<stdio.h>
+void main(void);
+double dbl=20.4530,d=4.5710,dblvar3;
+void main(void)
+{
+        double dbln(void);
+        dblvar3=dbln();
+        printf("%.2f\t%.2f\t%.2f\n",dbl,d,dblvar3);
+}
+double dbln(void)
+{
+        double dblvar3;
+        dbl=dblvar3=4.5;
+        return(dbl+d+dblvar3);
+}
+
+105
+
+#include<stdio.h>
+static int i=5;
+void main(void)
+{
+        int sum=0;
+        do
+        {
+                sum+=(1/i);
+        }while(0<i--);
+}
+
+106
+
+#include<stdio.h>
+void main(void)
+{
+        int oldvar=25,newvar=-25;
+        int swap(int,int);
+        swap(oldvar,newvar);
+        printf("Numbers are %d\t%d",newvar,oldvar);
+}
+int swap(int oldval,int newval)
+{
+        int tempval=oldval;
+        oldval=newval;
+        newval=tempval;
+}
+
+107
+
+#include<stdio.h>
+void main(void);
+void main(void)
+{
+        int i=100,j=20;
+        i++=j;
+        i*=j;
+        printf("%d\t%d\n",i,j);
+}
+
+108
+
+
+#include<stdio.h>
+void main(void);
+int newval(int);
+void main(void)
+{
+        int ia[]={12,24,45,0};
+        int i;
+        int sum=0;
+        for(i=0;ia[i];i++)
+        {
+                sum+=newval(ia[i]);
+        }
+        printf("Sum= %d",sum);
+}
+int newval(int x)
+{
+        static int div=1;
+        return(x/div++);
+}
+
+109
+
+#include<stdio.h>
+void main(void);
+void main(void)
+{
+        int var1,var2,var3,minmax;
+        var1=5;
+        var2=5;
+        var3=6;
+        minmax=(var1>var2)?(var1>var3)?var1:var3:(var2>var3)?var2:var3;
+        printf("%d\n",minmax);
+#include<stdio.h>
+void main(void);
+void main(void)
+{
+        void pa(int *a,int n);
+        int arr[5]={5,4,3,2,1};
+        pa(arr,5);
+}
+
+void pa(int *a,int n)
+{
+        int i;
+        for(i=0;i<n;i++)
+        printf("%d\n",*(a++)+i);
+}
+
+110
+
+#include<stdio.h>
+void main(void);
+void print(void);
+void main(void)
+{
+        print();
+}
+void f1(void)
+{
+        printf("\nf1():");
+}
+
+111
+
+
+#include "6.c"
+void print(void)
+{
+        extern void f1(void);
+        f1();
+}
+static void f1(void)
+
+{
+        printf("\n static f1().");
+}
+
+
+112
+
+
+#include<stdio.h>
+void main(void);
+static int i=50;
+int print(int i);
+void main(void)
+{
+        static int i=100;
+        while(print(i))
+        {
+                printf("%d\n",i);
+                i--;
+        }
+}
+int print(int x)
+{
+        static int i=2;
+        return(i--);
+}
+
+
+113
+
+
+#include<stdio.h>
+void main(void);
+typedef struct NType
+{
+        int i;
+        char c;
+        long x;
+} NewType;
+void main(void)
+{
+        NewType *c;
+
+        c=(NewType *)malloc(sizeof(NewType));
+        c->i=100;
+        c->c='C';
+        (*c).x=100L;
+        printf("(%d,%c,%4Ld)",c->i,c->c,c->x);
+}
+
+
+114
+
+
+#include<stdio.h>
+void main(void);
+const int k=100;
+void main(void)
+{
+        int a[100];
+        int sum=0;
+        for(k=0;k<100;k++)
+                *(a+k)=k;
+        sum+=a[--k];
+        printf("%d",sum);
+}
+
+
+
+115
+
+ main()
+                 {
+                 char c=-64;
+                 int i=-32
+                 unsigned int u =-16;
+                 if(c>i){
+                 printf("pass1,");
+                 if(c<u)
+                 printf("pass2");
+                 else
+                 printf("Fail2");}
+                 else
+                 printf("Fail1);
+                 if(i<u)
+                 printf("pass2");
+                 else
+                 printf("Fail2")
+             }
+
+
+116
+
+
+  main()
+      {
+      char *x="String";
+      char y[] = "add";
+      char *z;
+      z=(char *) malloc(sizeof(x)+sizeof(y)=1);
+      strcpy(z,y);
+      strcat(z,y);
+      printf("%s+%s=%s",y,x,z);
+      }
+
+117
+
+
+void main()
+{
+ int arr[2];
+ arr[-2]=2;
+ clrscr();
+ printf("\n%d",arr[-2]);
+ getch();
+}
+
+118
+
+#include<conio.h>
+#include<string.h>
+
+main()
+{
+char name[]="klinsman";
+int i=7;
+clrscr();
+while (i>=0)
+{
+printf("%c",name[i]);
+i--;
+}
+i++;
+printf("\n");
+while (i<=7)
+{
+printf("%c",name[i]);
+i++;
+}
+getch();
+}
+
+119
+
+
+main()
+{
+int i=0;
+char name[]="sian";
+clrscr();
+while(name[i] != 'v')
+{
+printf("%c",name[i]);
+i++;
+}
+getch();
+} 
+
+
+120
+
+
+
+main()
+{
+char name[]="klinsman";
+char *ptr;
+clrscr();
+ptr=name;   
+while(*ptr !='\0')
+{
+printf("%c",*ptr);
+ptr++;
+}
+getch();
+}
+} 
+
+121
+
+main()
+{
+ const  i=10;
+ static j=34;
+ printf("%d..%d\n",sizeof(i),sizeof(j));
+}
+
+122
+
+main()
+{
+ int i=3;
+ while(i)
+ {
+  static int i=10;
+  i--;
+  printf("%d\n",i);
+ }
+}
+
+123
+
+main()
+{
+ int a=0,b=1,c=2;
+ if(c,b,a)
+  printf("hello\n");
+ else
+  printf("hai\n");
+}
+
+124
+main()
+{
+ char *a=("~!~!~!~!~!~!"?"\/\/\/\/\/\/\/\/":"_+_+_+_+_+_+_+_+");
+ printf("%s",a);
+}
+
+125
+
+main()
+{
+ int a=0;
+ while(if(a<10))
+  printf("%d\n",a++);
+}
+
+126
+
+main()
+{
+ if(1) printf("\\\");
+}
+
+127
+
+main()
+{
+ if("Drive Me Crazy") printf("%c\n",5["1234567"]);
+}
+
+128
+
+main()
+{
+ int i;
+ if(for(i=0;i<=10;i++)printf("hi\n");)
+  printf("hi\n");
+}
+
+129
+
+main()
+{
+ int a=20,b; /* a=20 & b=Garbage Value                                 */
+ int *p;     /* p=Garbage Value & It is not safe to use *p Now OOPS!!! */
+ p=&a;       /* p=address(a) & Now it is safe to use *p                */
+ b=a/*p;     /* b=a/*p; a=20 => *p=20  obvious!                        */
+ -a;         /* No Comments                                            */
+ printf("%d..%d\n",a,b);
+	     /* what do you ''Think?''                                 */
+}
+
+130
+
+#define min(x,y) ((x)<(y)?(x):(y))
+main()
+{
+ int a=1,b;
+ b=min(a++,2);
+ printf("%d..%d\n",a,b);
+}
+
+131
+main()
+{
+ int i=10;
+ for(;i<=10;if(i==11))
+  printf("%d..",++i);
+}
+
+132
+
+main()
+{
+ int a=10,b=36;
+ printf("%d..%d\n",a,b);
+ a^=b^=b^=a;
+ printf("%d..%d\n",a,b);
+}
+
+133
+
+
+#define make_max_zero(x,y) ((x>y)?x:y)=0
+main()
+{
+ int a=10,b=30;
+ make_max_zero(a,b);
+ printf("%d..%d\n",a,b);
+}
+
+134
+
+main()
+{
+ int processor=0386;
+ printf("%d\n",a);
+}
+135
+
+main()
+{
+ typedef int* intptr;
+ int a=10,b=20;
+ clrscr();
+ printf("%d..%d\n",a,b);
+ just_for_fun(&a,&b);
+ printf("%d..%d\n",a,b);
+}
+just_for_fun(intptr x,intptr y)
+{
+ *x=*x-*y;
+ *y=*x+*y;
+ *x=*y-*x;
+}
+
+136
+
+#define __SMALL__
+#define __LARGE__
+#include <stdio.h>
+main()
+{
+ printf("%d\n",sizeof(NULL));
+}
+
+137
+
+#define  charptr char*
+main()
+{
+ charptr  a,b;
+ printf("%d\n",(sizeof(unsigned)<sizeof(signed)?sizeof(a):sizeof(b)) );
+}
+
+138
+
+main()
+{
+ printf("%d\n",sizeof("012\012\012"));
+}
+
+139
+
+main()
+{
+ char a[]="\\\0 1 2 3 4 5///";
+ printf("string is  %s",a);
+}
+
+140
+#line 78
+main()
+{
+ printf("\nLine No:%d Date :%s Time :%s File :%s",
+  __LINE__,__DATE__,__TIME__,__FILE__);
+}
+
+140
+
+main()
+{
+ printf("%%%%%%%%");
+}
+
+141
+
+int size(int a[100])
+{
+ return (sizeof(a));
+}
+main()
+{
+ int a[100];
+ printf("%d\n",size(a));
+}
+
+142
+
+main()
+{
+ int (*p)[10];
+ printf("%d\n",sizeof(p));
+}
+
+143
+
+main()
+{
+ printf("%f\n",cos(0));
+}
+
+144
+
+void fun(int *p)
+{
+ int xyz;
+ xyz=*p++;
+}
+main()
+{
+ int i=20;
+ printf("%d..",i);
+ fun(&i);
+ printf("%d\n",i);
+}
+
+145
+
+main()
+{
+ char *p="re%sur%sion%s";
+ printf(p,p,p,p);
+}
+
+146
+
+main()
+{
+_printf("Hello & Hai");
+}
+
+147
+
+main()
+{
+ printf("%d\n",1<0>1<0>1<0>1<0>1);
+}
+
+148
+
+main()
+{
+ printf("%d\n",1==0!=1==0!=1);
+}
+
+149
+
+main()
+{
+ printf("\0123");
+}
+
+
+
+150
+
+
+void main()
+{
+char s[40] ="get  prepared for  c";
+clrscr();
+printf("\n%s",&s[2]);
+printf("\n%s",s);
+printf("\n%s",&s);
+printf("\n%c",s[2]);
+}
+
+
+
+
+
+
+
+

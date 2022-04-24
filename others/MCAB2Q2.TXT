@@ -1,0 +1,200 @@
+
+   Predict the o/p or err in the following questions
+
+BAPTISM OF FIRE
+1.     main()
+	 {
+	 int i=0xbcf,y,z= 010;;
+	 float ii= 0101.1;
+	 scanf("%d",&y);
+	 /* the value entered is 010 */
+  	 printf(" float= %f  scanned= %d  hexint= %d  int=% d",ii,y,i,z);
+	 }
+
+2.    main()
+	{
+	int b=5;
+	float c = 5/2;
+	c = c/b;
+	printf("  %f    ",c);
+	 }
+
+3.     auto int i=100;
+	 main(){
+	  printf(" %d ",i);
+	 }
+
+4.    main(){
+	  for(int i=0;i=3;i++)
+	    printf(" %d",i);
+	 }
+
+5.    main(){
+	  int a,b;
+	  a=3 - - -3;
+	  printf("  %d  ",a);
+	  }
+
+6.   main(){
+	char *p="%c\n";
+	printf(p,65);
+	   }
+
+7.      main()
+	 {
+	  printf(" %d  %d  ",3>2,3>>2);
+	 }
+
+	  ?ing  your logic
+	  ----------------
+
+7.    main()
+	{
+	int k=10,j=20;
+	k=(k>5&&j=10)?100:200;
+	  printf("%d",k);
+	 }
+
+8.    main()
+	{
+	int k=10,j=20,l=30;
+	k=k<5?j>10&&l++<10?100:200:300;
+	printf("      %d   %d",k,l);
+	}
+Increment Complex
+		 
+
+9.    main(){
+	 int x=10,y;
+	 y = --x--;
+	 printf(" %d  %d ",x,y);
+	 }
+10.  main(){
+	int x=1,y=2,z=-1;
+	z=z--&&y--||x--;
+	printf(" %d %d %d",x,y,z);
+	}
+
+		   Struggling with structures
+		   -------------------------
+11.    struct xyz {
+	       int i;
+	       struct xyz xyz1;
+	     };
+	main(){
+	  struct xyz z;
+	  int i = 20;;
+	  z.i = 10;
+	  printf("%d...%d",i,z.i);
+	  }
+
+12. In the following Q.,pick out the erroneous output statements ...
+	  main(){
+	  struct x  { int i; }*p,a;
+	  p = &a;
+	  a.i = 10;
+	  1.  printf ("%d",*p.i);
+	  2.  printf ("%d",(*p).i);
+	  3.  printf ("%d",*p->i);
+	  4.  printf ("%d",*(p.i));
+	  5.  printf ("%d",(*p)  .i);
+	  }
+13.      main()
+	 {
+	 struct i{int x:4;
+	  int y:4;}*p;
+	 (&*p)->x=65;
+	  p->y=0;
+	 printf(" %c ",65);
+	   }
+
+	
+
+
+
+
+Functions & Macros
+	
+
+14.  int x = 1;
+     void *i ;
+     main()
+     {
+      printf("HelloWorld");
+      if (x == 1)
+	{x++;
+	i =(*main)();
+	}
+	printf("%X", i);
+       }
+
+15.   int a()
+      {
+      printf(" HI ");
+      }
+      main()
+      {
+      int *i=a;
+      printf("%d",i);
+      }
+
+16.   #define BEGIN main(){
+      #define END }
+      BEGIN
+       printf("hai");
+      END
+
+17.   #define cube(x) (x*x*x)
+      main()
+      {
+	int a=3,b=4;
+	printf(" a^3=%d, b^3=%d",cube(++a),cube(b++));
+       }
+
+18    #define int char
+       main()
+	  {
+	  int a;
+	 a=290;
+	  printf(" %d ",a);
+	  }
+
+19.   int i=5;
+      main()
+       {
+	int i=4;
+	abc(i++=i/4);
+	 printf("%d",i);
+	 }
+      abc(int i)
+	 {
+	 return i/2;
+
+20 .#define SQR(x) (x*x)
+    main()
+	{
+	int x=10,y=5;
+       printf("%d",SQR(x-y));
+	}
+	  }
+
+Relax Time
+  
+
+21.   Write a code to sort numbers from 1 to 50 ,WITHOUT using
+     any comparison operators.(use if construct if necessary).
+
+22.   Write a code to choose the bigger one between two numbers
+      WITHOUT using any comparison operators AND if construct.
+
+23.  what is the allowable length of a var in turbo c compiler
+
+NEXT Q PAPER -> STAR WARS SPECIAL
+Our sincere thanks to V.M,Y.K
+-MANU SRI PRINCE-
+
+
+
+
+
+
